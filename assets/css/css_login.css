@@ -1,0 +1,50 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#logo{
+    width: 100%;
+    display: flex;
+    margin-left: -80px;
+    margin-top: 20px;
+}
+#img_login{
+    width: 80%;
+}
+#area_login{
+    flex-direction: column;
+    padding-top: 40px;
+    width: 70%;
+}
+#forgot_pass{
+   text-decoration: none;
+   color: black;
+   font-style: italic; 
+}
+#forgot_pass:hover{
+    font-weight: bold;
+}
+#div_img_login{
+    display: block;
+}
+#title_login{
+    font-size: 30px;
+    font-weight: bold;
+}
+@media only screen and (max-width: 1080px) {
+    #div_img_login{
+        display: none;
+    }
+    #logo{
+        justify-content: center;
+        margin-left: 0px;
+    }
+    #area_login{
+        padding-left: 20px;
+        padding-right: 20px;
+        width: 100%;
+    }
+    #title_login{
+        font-size: 20px;
+    }
+}

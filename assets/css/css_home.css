@@ -1,0 +1,25 @@
+.img_card_home{
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.card_home{
+    flex-direction: row;
+    display: flex;
+    width: 30%;
+    height: 120px;
+    margin-right: 30px;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.title_card_home{
+    font-size: 20px;
+    font-weight: bold;
+}
+.row_row{
+    display: flex;
+    flex-direction: row;
+}
